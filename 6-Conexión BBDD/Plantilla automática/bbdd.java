@@ -1,3 +1,8 @@
+
+     * LA TENEIS QUE GUARDAR PARA LAS DEMÁS FUNCIONES
+     */
+	public static Connection conectarBaseDatos() {
+		Connection con = null;
 import java.sql.*;
 import java.util.Scanner;
 
@@ -14,11 +19,6 @@ public class bbdd {
      * SE HACE TODO DE MANERA AUTOMÁTICA.
      *
      * @return Objeto Connection si la conexión es exitosa, null en caso contrario. LA VARIABLE QUE DEVUELVE
-     * LA TENEIS QUE GUARDAR PARA LAS DEMÁS FUNCIONES
-     */
-	public static Connection conectarBaseDatos() {
-		Connection con = null;
-
 		System.out.println("Intentando conectarse a la base de datos");
 		
 		System.out.println("Selecciona centro o fuera de centro: (CENTRO/FUERA)");
@@ -37,10 +37,10 @@ public class bbdd {
 			URL = "jdbc:oracle:thin:@//oracle.ilerna.com:1521/XEPDB2";
 		}
 		
-		System.out.println("¿Usuario?");
+		System.out.println DM2425_PIN_GRUP01;
 		String USER = scan.nextLine();
 		
-		System.out.println("¿Contraseña?");
+		System.out.println APGPS01;
 		String PWD = scan.nextLine();
 		
 		try {
