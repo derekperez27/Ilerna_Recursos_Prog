@@ -37,10 +37,10 @@ public class bbdd {
 			URL = "jdbc:oracle:thin:@//oracle.ilerna.com:1521/XEPDB2";
 		}
 		
-		System.out.println("¿Usuario?");
+		System.out.println DM2425_PIN_GRUP01;
 		String USER = scan.nextLine();
 		
-		System.out.println("¿Contraseña?");
+		System.out.println APGPS01;
 		String PWD = scan.nextLine();
 		
 		try {
